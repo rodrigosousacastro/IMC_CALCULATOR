@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans:ital@0;1&family=Pacifico&family=Poppins:wght@500&display=swap');
+
+*{
+    font-family: 'Poppins', 'san-serif';
+}
+
+#titulo {
+    color: black;
+    text-align: center;
+}
+
+fieldset {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(194, 194, 163);
+}
+
+.saibaMais {
+    margin-left: 20px;
+}
+
+button {
+    background-color: rgb(72,61,139);
+    padding: 5px 10px 5px 10px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+    border-radius: 5px;
+    color: #fff;
+}
+
+button:hover {
+    background-color: rgb(105,89,205);
+}
+
+button:active {
+    background-color: rgb(106,90,205);
+    color: rgb(72,61,139);;
+}
+
+p, h3 {
+    margin-left: 20px;
+}
